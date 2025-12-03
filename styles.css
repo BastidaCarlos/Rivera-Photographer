@@ -305,9 +305,13 @@ a {
 }
 
 .features {
-    list-style: none;
     padding-bottom: var(--spacing-xs);
+}
+
+.ideal-list {
     text-align: left;
+    padding-left: var(--spacing-lg);
+    list-style-type: square;
 }
 
 .features-item,
